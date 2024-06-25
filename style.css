@@ -1,0 +1,159 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.row-class{
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0px;
+ }
+.largerdiv{
+    background-color: rgba(240, 233, 233, 0.1);
+    border-radius: 30px;
+}
+.largerdiv img{
+    width: 200px;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Teko", sans-serif;
+}
+.welcome p{
+    font-size: 22px;
+ }
+ /* Search Div */
+ .form-div{
+    background-color: rgba(184, 161, 183, 0.1);
+    border-radius: 30px;
+ } 
+ .form-child{
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #f0e7f533;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.form-child input{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #cac7ff;
+    text-indent: 14px;
+    text-transform: capitalize;
+ }
+ .form-child input::placeholder{
+    color: white;
+}
+ .form-child button{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    /* margin-left: 57px; */
+    float: right;
+    color: white;
+ }
+ #invalidText{
+    margin-left: 75px;
+    color: orange;
+    visibility: hidden;
+ }
+
+ /* temperature details */
+ .NameCountry{
+    margin-top: 25px;
+ }
+ .welcomeDiv{
+   position: relative;
+   padding-bottom: 60px;
+ }
+ .tempLower{
+   display: inline-flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-top: 20px;
+   gap: 20px;
+}
+.tempLower p{
+   margin: 0;
+}
+.weatherImg{
+   /* position: absolute; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+.NameCountry{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;  
+   margin-top: 70px;
+}
+
+ /* images */
+ .weatherImg img{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* error */
+.welcomeDivMain{
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   height: 80vh;
+}
+.error {
+   text-align: center;
+}
+.error img{
+   display: block;
+   margin: 0 auto;
+}
+
+/* AI Suggests */
+.suggestion h5{
+   /* font-family: "Rancho", cursive; */
+   font-family: "IM Fell English", serif;
+   margin-left: 10px;
+}
+.suggestion ul{
+   list-style: none; 
+   margin-top: 30px;  
+}
+.suggestion li{
+   line-height: 2; 
+   margin-top: 15px;  
+   font-family: "IM Fell English", serif;
+
+}
+
+/* hide visibility */
+
+/* #welcomeDiv{
+   display: none; 
+} */
+#errordiv{
+   display: none;
+}
+
+/* fonts */
+.welcomeDiv{
+   font-family: "Fira Sans Condensed", sans-serif;
+   font-weight: 400;
+}
+.error{
+   font-family: "Architects Daughter", cursive;
+   font-weight: 400;  
+}
+ 
